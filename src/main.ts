@@ -20,7 +20,7 @@ app.mount('#app')
 app.config.globalProperties.$filters = {
   // 格式化时间
   formatTime(val: string) {
-    // console.log(val)
+    console.log(val)
   }
 }
 // console.log(process.env.VUE_APP_BASE_URL)
