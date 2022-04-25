@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "strict": true,
-    "jsx": "preserve",
-    "moduleResolution": "node",
+    "target": "esnext",//目标代码（ts-ES5/6/7）
+    "module": "esnext",//模块化导入导出的方式ES6 improt，exprot
+    "strict": true,//打开严格的检查
+    "jsx": "preserve",//是否对jsx进行如何处理
+    "moduleResolution": "node",//按照node方式解析模块
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
