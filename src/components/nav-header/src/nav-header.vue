@@ -26,7 +26,7 @@ export default defineComponent({
       isFold.value = !isFold.value
       emit('foldChange', isFold.value)
     }
-    const breadcrumbs: IBreadcrumb[] = [{ name: 'lixi', path: '/' }]
+    const breadcrumbs: IBreadcrumb[] = [{ name: 'ceshi', path: '/' }]
     return {
       handleFoldClick,
       isFold,
